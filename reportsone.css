@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: whitesmoke;
+    align-items: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1),rgba(0, 0, 0, 0.9)), url(indiapunjab.webp);
+}
+.container{
+    display: flex;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1),rgba(255, 255, 255, ));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+.card{
+    height: 400px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    border-radius: 7px;
+}
+img{
+    height: 300px;
+    width: 250px;
+    border-radius: 7px;
+}
+.intro{
+    height: 200px;
+    width: 250px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 55px;
+    background: rgba(27, 27, 27, 0.9);
+    color: white;
+}
+h1{
+    margin: 2.7%;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    margin: 2.7%;
+}
+.card:hover .intro{
+    cursor: pointer;
+    height: 200px;
+    bottom: 70px;
+    background-color: black;
+   
+}

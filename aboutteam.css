@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1)), url(scene.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+.nila{
+    border: solid rgba(255, 255, 255, 0.2);
+    margin: 2%;
+    padding: 4%;
+    width: 80%;
+    height: 220px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 7px 7px 17px rgb(9, 0, 0);
+}
+.sai{
+    border: solid rgba(255, 255, 255, 0.2);
+    margin: 2%;
+    padding: 4%;
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 7px 7px 17px rgb(9, 0, 0);
+}
+.shiv{
+    border: solid rgba(255, 255, 255, 0.2);
+    margin: 2%;
+    padding: 4%;
+    width: 80%;
+    height: 217px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 7px 7px 17px rgb(9, 0, 0);
+}
+h2{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+#home-science{
+    position: absolute;
+    justify-content: space-between; 
+}
+#home-science a{
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border:ridge;
+    border-color: rgb(149, 248, 208);
+    color: aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    z-index: 1;
+    transition: 0.5s;
+}
+#home-science a:hover{
+    color: aqua;
+    font-size: 30px;
+    transition-property: initial;
+    transition-duration: 0.7s;
+    overflow: hidden;
+    color: black;
+}
+#home-science a::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    height: 100%;
+    background: rgb(245, 245, 245);
+    z-index: -1;
+}
+#home-science a:hover::before{
+    width: 100%;
+    transition: 0.5s;
+}
